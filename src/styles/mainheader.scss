@@ -1,0 +1,68 @@
+.mainSlider {
+	margin-bottom: 20px;
+	.slide {
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 60vh;
+	}
+
+	.s1 {
+		background-image: url('../img/magic_concrete_design_flower_vase_origami_biggr.jpg');
+	}
+	.s2 {
+		background-image: url('../img/magic_concrete_design_tealight_holder_origami_bigger.jpg');
+	}
+	.s3 {
+		background-image: url('../img/magic_concrete_design_planter_pot_bigger.jpg');
+	}
+	.s4 {
+		background-image: url('../img/magic-concrete-design-unicus-flower-vase.jpg');
+	}
+
+	.darksquare {
+		
+		background-color: rgba(0, 0, 0, 0.5);
+		width: 400px;
+		text-align: center;
+		padding: 20px 0px;
+		border: none;
+		h4 {
+			font-size: 2rem;
+			font-weight: lighter;
+			color: white;
+		}
+	}
+
+	.lightsqaure {
+		background-color: rgba(255, 255, 255, 0.5);
+		width: 400px;
+		text-align: center;
+		padding: 20px 0px;
+		border: none;
+		h4 {
+			font-size: 2rem;
+			font-weight: lighter;
+			color: rgb(0, 0, 0);
+		}
+		h3 {
+			font-size: 1.6rem;
+			font-weight: lighter;
+			color: rgb(0, 0, 0);
+		}
+	}
+
+
+}
+
+.slick-prev,
+.slick-next {
+	background-image: url('../img/arrow-right-circle-concrete.svg') ;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: red;
+	height: 100px;
+	width: 100px;
+	z-index: 2;
+	margin: 0px 30px;
+}
