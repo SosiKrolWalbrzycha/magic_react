@@ -10,7 +10,7 @@ import ProductHeader from './productheader.jsx'
 
 const Header = () => {
 	return (
-		<main>
+		<header className='container'>
 			<Routes>
 				<Route element={<Navigate to='/' />} path='*' />
 				<Route element={<MainHeader />} path='/' />
@@ -19,7 +19,7 @@ const Header = () => {
 				<Route element={<ProductHeader />} path='/concrete-flower-vase-regulus' />
 				<Route element={<ProductHeader />} path='/concrete-flower-vase-twistedsquare' />
 			</Routes>
-		</main>
+		</header>
 	)
 }
 

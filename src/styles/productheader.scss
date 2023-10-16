@@ -1,83 +1,154 @@
 .container {
 	display: flex;
-	flex-direction: column;
-    max-width: 1400px;
-    min-width: 340px;
-	.gallery {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	width: 100%;
+	z-index: 10;
+	min-width: 340px;
+	max-width: 1400px;
+
+	.productcontainer {
 		display: flex;
 		flex-direction: column;
 
-		.mainphoto {
+		.description {
 			display: flex;
-			justify-content: center;
-			align-items: center;
+			flex-direction: column;
+			align-items: start;
 			width: 100%;
-			height: 100vw;
-			margin-bottom: 10px;
+			height: 100%;
+			padding: 0px 10px;
 
-			img {
-				width: 100%;
-				height: 100%;
+			h1 {
+				font-size: 1.6rem;
+				text-align: left;
+				margin: 20px 0px;
+			}
+
+			h4 {
+				margin: 10px 0px;
+				text-align: left;
+				border-bottom: 1px solid black;
+			}
+
+			p {
+				text-align: left;
+				font-size: 0.9rem;
 			}
 		}
 
-		.navphoto {
+		.gallery {
 			display: flex;
-			flex-direction: row;
-			justify-content: space-between;
-			margin-bottom: 10px;
+			flex-direction: column;
+			width: 100%;
+			margin-right: 10px;
 
-			button {
-				width: 20%;
-				border: none;
-				cursor: pointer;
+			.mainphoto {
 				position: relative;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-bottom: 10px;
+
+				.galleryControl {
+					position: absolute;
+					border: none;
+					background-color: transparent;
+					cursor: pointer;
+				}
+
+				.subOne {
+					left: 20px;
+				}
+				.addOne {
+					right: 20px;
+				}
 
 				img {
-					height: 100%;
 					width: 100%;
 				}
 			}
 
-			button::before {
-				content: '';
-				position: absolute;
-				top: 0;
-				left: 0;
-				right: 0;
-				bottom: 0;
-                height: 0;
-                background-color: rgba(218, 218, 218, .5);
-			}
+			.navphoto {
+				display: flex;
+				flex-direction: row;
+				justify-content: space-between;
+				margin-bottom: 10px;
 
-			button:hover {
-				border: 1px solid rgb(65, 65, 65);
-			}
+				button {
+					width: 20%;
+					border: none;
+					cursor: pointer;
+					position: relative;
 
-            button:active::before {height: 100%;}
+					img {
+						height: 100%;
+						width: 100%;
+					}
+				}
 
-			button:active {
-				border: 3px solid rgb(0, 0, 0);
+				button::before {
+					content: '';
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					height: 0;
+					background-color: rgba(218, 218, 218, 0.5);
+				}
+
+				button:hover {
+					border: 1px solid rgb(65, 65, 65);
+				}
+
+				button:active::before {
+					height: 100%;
+				}
 			}
 		}
-	}
-	.description {
-		display: flex;
-		width: 100%;
-		height: 200px;
-		background-color: blue;
 	}
 }
 
 @media (min-width: 768px) {
 	.container {
-		flex-direction: row;
-        max-width: 1400px;
-		.gallery {
-			width: 50vw;
-			margin-right: 10px;
-			.mainphoto {
-				height: 50vw;
+		.productcontainer {
+			flex-direction: row;
+			.gallery {
+				width: 50%;
+				padding: 0px 5px;
+			}
+			.description {
+				width: 50%;
+
+				padding: 0px 5px;
+				h1 {
+					font-size: 1.6rem;
+					margin: 0px 0px;
+				}
+				p {
+					font-size: 0.8rem;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 992px) {
+	.container {
+		.productcontainer {
+			.gallery {
+				padding: 0px 10px;
+			}
+			.description {
+				padding: 0px 10px;
+				h1 {
+					font-size: 1.8rem;
+					margin: 0px 0px;
+				}
+				p {
+					font-size: 1rem;
+				}
 			}
 		}
 	}

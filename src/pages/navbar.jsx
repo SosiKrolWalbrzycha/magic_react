@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, useNavigate } from 'react-router-dom'
-import '../navbar.scss'
+import '../styles/navbar.scss'
 import logo from '../img/magic_concrete_art_logo.jpg'
 
 
@@ -10,7 +10,7 @@ const Navbar = () => {
 	const handleBurgerButton = () => setMenuState(!menuState)
 
 	return (
-		<div className='navigation'>
+		<nav className='navigation'>
 			<div className='abovepart'>
 				<div className='logo'>
 					<img src={logo} alt='B' />
@@ -62,7 +62,7 @@ const Navbar = () => {
 					</ul>
 				</div>
 			</div>
-		</div>
+		</nav>
 	)
 }
 

@@ -13,7 +13,9 @@ class App extends Component {
 		return (
 			<div>
 				<BrowserRouter>
+
 					<Navbar />
+					
 					<Header />
 					<Content />
 					<Footer />
