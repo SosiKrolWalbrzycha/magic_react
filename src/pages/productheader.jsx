@@ -1,15 +1,15 @@
-import React, { useState, useEffect } from 'react'
-import { useLocation, Routes, Route, Navigate } from 'react-router-dom'
+import React, { useState} from 'react'
+import { useLocation} from 'react-router-dom'
 import '../styles/productheader.scss'
 import OrigamiFlowerVase from './origami-flower-vase.jsx'
 import TwistedSquareFlowerVase from './twistedsquare-vase.jsx'
 
 const ProductHeader = () => {
 	const location = useLocation()
-	const adress = location.pathname.slice(1)
+	
 
 	const [productState, setProductState] = useState(1)
-	const [buttonActive, setButtonActive] = useState(1)
+	
 
 	const addOne = () => {
 		setProductState(productState < 8 ? productState + 1 : productState)
@@ -120,7 +120,28 @@ const ProductHeader = () => {
 			<div className='description'>
 
 {location.pathname.slice(1)==='concrete-flower-vase-origami' ? <OrigamiFlowerVase /> : null}
-{location.pathname.slice(1)==='concrete-flower-vase-twistedsquare' ? <TwistedSquareFlowerVase /> : null}
+{location.pathname.slice(1)==='unicus-cement-flower-vase' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='twistedsquare-cement-cigarette-ashtray' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='heavyloop-concrete-phone-holder' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='lightwave-concrete-phone-stand' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='helios-concrete-wall-clock' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='cannonball-cement-planter-pot' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='castor-concrete-tealight-stand' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='regulus-beton-flower-vase' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='regulus-concrete-flower-pot' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='twisted-sqaure-concrete-vase' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='cannonball-xl-concrete-planter-pot' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='spica-concrete-tealight-holder' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='origami-concrete-candle-holder' ? <OrigamiFlowerVase /> : null}
+
+
+
+
+
+
+
+
+{location.pathname.slice(1)==='regulus-concrete-cigarette-ashtray' ? <OrigamiFlowerVase /> : null}
 			
 				
 			</div>

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import '../styles/mainheader.scss'
-import graph1 from '../img/magic_concrete_design_flower_vase_origami_small.jpg'
 
 
 
