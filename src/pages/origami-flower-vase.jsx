@@ -2,27 +2,20 @@ import React from "react";
 
 const OrigamiFlowerVase = () => {
     return ( <div>
-        <h1>Concrete flower vase - Origami</h1>
+        <h1>Origami - Concrete flower vase</h1>
 				<h4>Inspiration:</h4>
 				<p>
-					The Origami product line is the result of our fascination with Chinese culture and, at the same time, a
-					tribute to the art of the middle country. Shapes inspired by the Chinese art of paper folding work well both
-					in spacious rooms and in tight spaces where there is no space. Origami inspiration offers unlimited potential.
-					It allows you to design complex and extremely inventive everyday objects.
+				Drawing inspiration from the rich tapestry of Chinese culture, our Origami product series serves as an homage to the timeless artistry of the Middle Kingdom. Embracing the intricate aesthetics of traditional Chinese paper folding, these designs seamlessly fit both expansive spaces and compact nooks. The allure of Origami is boundless, enabling the creation of multifaceted and ingeniously crafted everyday items.
 				</p>
-				<h4>Production:</h4>
+				<h4>Craftmanship:</h4>
 				<p>
-					Origami vases are very difficult to manufacture. In the first step, we spent a lot of time preparing the
-					model. Due to the many edges, the real surface to be processed is numerous. Due to the size and number of
-					edges, tools cannot be used for grinding. Removing the product from the mold is not easy because it requires
-					strength. Unfortunately, the form is not very resistant to damage. Only 4 ready-made vases are made from one
-					mold.
+				The journey of crafting an Origami vase is filled with challenges. Initial phases demand meticulous attention to model preparation, given the intricacy of its multiple facets. The sheer number of edges makes standard grinding tools obsolete. Furthermore, the demolding process demands careful strength application, given the design's delicacy. The molds themselves possess a limited lifespan, producing only four exquisite vases before necessitating replacement.
 				</p>
-				<h4>How o use:</h4>
+				<h4>Usage Guidelines:</h4>
 				<p>
-				The Origami flower vase can be used indoors and outdoors. The shape is also great in small rooms. We recommend a concrete origami vase as a fashionable and attractive gift for her.
+				The Origami flower vase is versatile, complementing both indoor and outdoor settings. Its unique design shines even in smaller spaces. If you're in search of a chic and captivating gift, the concrete Origami vase stands out as an impeccable choice.
 				</p>
-				<h4>Sizes:</h4>
+				<h4>Dimensions:</h4>
 				<p>Width: 12 cm or 7.72 In</p>
 				<p>Height: 25 cm or 9.84 In</p> <p>Weight: about 3 kg </p>
     </div> );
