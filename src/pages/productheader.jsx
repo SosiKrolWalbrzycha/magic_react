@@ -4,13 +4,17 @@ import '../styles/productheader.scss'
 import OrigamiFlowerVase from './origami-flower-vase.jsx'
 import TwistedSquarAshtray from './twistedsquare-cement-cigarette-ashtray.jsx'
 import UnicusFlowerVase from './unicus-cement-flower-vase.jsx'
-import TwistedSquareFlowerVase from './twistedsquare-vase.jsx'
 import HeavyLoopHolder from './heavyloop-concrete-phone-holder.jsx'
 import LightWaveHolder from './lightwave-concrete-phone-stand.jsx'
 import Helios from './helios-concrete-wall-clock.jsx'
 import CastorTeaLight from './castor-concrete-tealight-stand.jsx'
 import RegulusFlowerPot from './regulus-concrete-flower-pot.jsx'
 import TwistedSquareVase from './twisted-sqaure-concrete-vase.jsx'
+import RegulusAshtray from './regulus-concrete-cigarette-ashtray.jsx'
+import OrigamiCandleHolder  from './origami-concrete-candle-holder.jsx'
+import SpicaHolder  from './spica-concrete-tealight-holder.jsx'
+import CannonBallXL  from './cannonball-xl-concrete-planter-pot.jsx'
+import CannonBallL  from './cannonball-cement-planter-pot.jsx'
 
 const ProductHeader = () => {
 	const location = useLocation()
@@ -133,14 +137,15 @@ const ProductHeader = () => {
 {location.pathname.slice(1)==='heavyloop-concrete-phone-holder' ? <HeavyLoopHolder /> : null}
 {location.pathname.slice(1)==='lightwave-concrete-phone-stand' ? <LightWaveHolder /> : null}
 {location.pathname.slice(1)==='helios-concrete-wall-clock' ? <Helios /> : null}
-{location.pathname.slice(1)==='cannonball-cement-planter-pot' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='cannonball-cement-planter-pot' ? <CannonBallL /> : null}
 {location.pathname.slice(1)==='castor-concrete-tealight-stand' ? <CastorTeaLight /> : null}
 {location.pathname.slice(1)==='regulus-beton-flower-vase' ? <OrigamiFlowerVase /> : null}
 {location.pathname.slice(1)==='regulus-concrete-flower-pot' ? <RegulusFlowerPot /> : null}
 {location.pathname.slice(1)==='twisted-sqaure-concrete-vase' ? <TwistedSquareVase /> : null}
-{location.pathname.slice(1)==='cannonball-xl-concrete-planter-pot' ? <OrigamiFlowerVase /> : null}
-{location.pathname.slice(1)==='spica-concrete-tealight-holder' ? <OrigamiFlowerVase /> : null}
-{location.pathname.slice(1)==='origami-concrete-candle-holder' ? <OrigamiFlowerVase /> : null}
+{location.pathname.slice(1)==='cannonball-xl-concrete-planter-pot' ? <CannonBallXL /> : null}
+{location.pathname.slice(1)==='spica-concrete-tealight-holder' ? <SpicaHolder /> : null}
+{location.pathname.slice(1)==='origami-concrete-candle-holder' ? <OrigamiCandleHolder  /> : null}
+{location.pathname.slice(1)==='regulus-concrete-cigarette-ashtray' ? <RegulusAshtray /> : null}
 
 
 

@@ -56,14 +56,35 @@
 
 }
 
+.slick-arrow {display: block !important;}
 .slick-prev,
-.slick-next {
-	background-image: url('../img/arrow-right-circle-concrete.svg') ;
-	background-position: center;
-	background-repeat: no-repeat;
-	color: red;
-	height: 100px;
-	width: 100px;
-	z-index: 2;
-	margin: 0px 30px;
+.slick-next,
+.slick-prev:hover,
+.slick-next:hover {
+	visibility: visible;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: 100px;
+    width: 100px;
+    z-index: 10;
+    margin: 0px 60px;
 }
+
+.slick-prev,
+.slick-prev:hover {
+    background-image: url('../img/arrow-left-circle-concrete.svg') !important;
+}
+
+.slick-next,
+.slick-next:hover {
+    background-image: url('../img/arrow-right-circle-concrete.svg') !important;
+}
+
+
+
+.slick-prev::before {
+	display: none;
+  }
+.slick-next::before {
+	display: none;
+  }
