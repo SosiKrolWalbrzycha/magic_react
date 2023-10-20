@@ -17,7 +17,7 @@ class App extends Component {
 					<Navbar />
 					
 					<Header />
-					<Content />
+		
 					<Footer />
 					<FooterSeo />
 				</BrowserRouter>

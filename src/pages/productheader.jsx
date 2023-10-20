@@ -1,20 +1,8 @@
 import React, { useState} from 'react'
 import { useLocation} from 'react-router-dom'
 import '../styles/productheader.scss'
-import OrigamiFlowerVase from './origami-flower-vase.jsx'
-import TwistedSquarAshtray from './twistedsquare-cement-cigarette-ashtray.jsx'
-import UnicusFlowerVase from './unicus-cement-flower-vase.jsx'
-import HeavyLoopHolder from './heavyloop-concrete-phone-holder.jsx'
-import LightWaveHolder from './lightwave-concrete-phone-stand.jsx'
-import Helios from './helios-concrete-wall-clock.jsx'
-import CastorTeaLight from './castor-concrete-tealight-stand.jsx'
-import RegulusFlowerPot from './regulus-concrete-flower-pot.jsx'
-import TwistedSquareVase from './twisted-sqaure-concrete-vase.jsx'
-import RegulusAshtray from './regulus-concrete-cigarette-ashtray.jsx'
-import OrigamiCandleHolder  from './origami-concrete-candle-holder.jsx'
-import SpicaHolder  from './spica-concrete-tealight-holder.jsx'
-import CannonBallXL  from './cannonball-xl-concrete-planter-pot.jsx'
-import CannonBallL  from './cannonball-cement-planter-pot.jsx'
+
+import Content from './content.jsx'
 
 const ProductHeader = () => {
 	const location = useLocation()
@@ -33,6 +21,9 @@ const ProductHeader = () => {
 	const buttonHandler = e => {
 		setProductState(Number(e.target.id))
 	}
+
+
+	const name = location.pathname.slice(1)
 
 
 	return (
@@ -129,37 +120,11 @@ const ProductHeader = () => {
 				</div>
 			</div>
 
-			<div className='description'>
-
-{location.pathname.slice(1)==='concrete-flower-vase-origami' ? <OrigamiFlowerVase /> : null}
-{location.pathname.slice(1)==='unicus-cement-flower-vase' ? <UnicusFlowerVase /> : null}
-{location.pathname.slice(1)==='twistedsquare-cement-cigarette-ashtray' ? <TwistedSquarAshtray /> : null}
-{location.pathname.slice(1)==='heavyloop-concrete-phone-holder' ? <HeavyLoopHolder /> : null}
-{location.pathname.slice(1)==='lightwave-concrete-phone-stand' ? <LightWaveHolder /> : null}
-{location.pathname.slice(1)==='helios-concrete-wall-clock' ? <Helios /> : null}
-{location.pathname.slice(1)==='cannonball-cement-planter-pot' ? <CannonBallL /> : null}
-{location.pathname.slice(1)==='castor-concrete-tealight-stand' ? <CastorTeaLight /> : null}
-{location.pathname.slice(1)==='regulus-beton-flower-vase' ? <OrigamiFlowerVase /> : null}
-{location.pathname.slice(1)==='regulus-concrete-flower-pot' ? <RegulusFlowerPot /> : null}
-{location.pathname.slice(1)==='twisted-sqaure-concrete-vase' ? <TwistedSquareVase /> : null}
-{location.pathname.slice(1)==='cannonball-xl-concrete-planter-pot' ? <CannonBallXL /> : null}
-{location.pathname.slice(1)==='spica-concrete-tealight-holder' ? <SpicaHolder /> : null}
-{location.pathname.slice(1)==='origami-concrete-candle-holder' ? <OrigamiCandleHolder  /> : null}
-{location.pathname.slice(1)==='regulus-concrete-cigarette-ashtray' ? <RegulusAshtray /> : null}
-
-
-
-
-
-
-
-
-{location.pathname.slice(1)==='regulus-concrete-cigarette-ashtray' ? <OrigamiFlowerVase /> : null}
+			<Content name={name}/>
 			
-				
-			</div>
 		</div>
 	)
+
 }
 
 export default ProductHeader
