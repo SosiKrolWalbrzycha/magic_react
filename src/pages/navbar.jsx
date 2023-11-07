@@ -1,33 +1,40 @@
 import React, { useState } from 'react'
-import { NavLink} from 'react-router-dom'
+import { NavLink, useNavigate} from 'react-router-dom'
 import '../styles/navbar.scss'
 import logo from '../img/magic_concrete_art_logo.jpg'
 
 
 const Navbar = () => {
+	const navigate = useNavigate();
+
 	const [menuState, setMenuState] = useState(false)
 
 	const handleBurgerButton = () => setMenuState(!menuState)
+
+	const backToMainPage = () => { navigate('/')
+
+	}
+
 
 	return (
 		<nav className='navigation'>
 			<div className='abovepart'>
 				<div className='logo'>
-					<img src={logo} alt='B' />
+					<img src={logo} alt='MagicConcrete Logo' onClick={backToMainPage}/>
 				</div>
 				<div className='icons'>
 					<button className='facebook_icon icon social'>
-					<i class="fa-brands fa-facebook-f"></i>
+					<i className="fa-brands fa-facebook-f"></i>
 					</button>
 					<button className='insta_icon icon'>
-					<i class="fa-brands fa-instagram"></i>
+					<i className="fa-brands fa-instagram"></i>
 					</button>
 					<button className='etsy_icon icon'>
-					<i class="fa-brands fa-etsy"></i>
+					<i className="fa-brands fa-etsy"></i>
 					</button>
 				</div>
 				<div className='burger'>
-					<button className='icon' onClick={handleBurgerButton}>{menuState ? <i class="fa-solid fa-arrow-down"></i> : <i class="fa-solid fa-bars"></i>}
+					<button className='icon' onClick={handleBurgerButton}>{menuState ? <i className="fa-solid fa-arrow-down"></i> : <i className="fa-solid fa-bars"></i>}
 					
 					</button>
 				</div>
@@ -36,7 +43,7 @@ const Navbar = () => {
 				<div className='belowfirstpart'>
 					<ul>
 						<li>
-							<NavLink to='/concrete-flower-vase-origami' onClick={handleBurgerButton}>
+							<NavLink to='/origami-concrete-flower-vase' onClick={handleBurgerButton}>
 								Origami - concrete flower vase
 							</NavLink>
 						</li>

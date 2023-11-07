@@ -2,11 +2,12 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import SalesButons from './sales-buttons.jsx'
-const Content = () => {
+const Content = (props) => {
 	const location = useLocation()
 
+
 	const description = {
-		'concrete-flower-vase-origami': [
+		'origami-concrete-flower-vase': [
 			{
 				title: `Inspiration:`,
 				text: `Drawing inspiration from the rich tapestry of Chinese culture, our Origami product series serves as an homage to the timeless artistry of the Middle Kingdom. Embracing the intricate aesthetics of traditional Chinese paper folding, these designs seamlessly fit both expansive spaces and compact nooks. The allure of Origami is boundless, enabling the creation of multifaceted and ingeniously crafted everyday items.`,
@@ -22,6 +23,12 @@ const Content = () => {
 				title:`Dimensions:`,
 				text:`Width: 12 cm (7.72 In) / Height: 25 cm (9.84 In) / Weight: about 3 kg`
 			}
+			, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`,
+				metaKeywords:`origami, concrete, flowers vase, art, art design, home decor`
+			}
+			
 		],
 		'unicus-cement-flower-vase': [
 			{
@@ -38,6 +45,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 12.5 cm (4.9 inches) / Height: 27.5 cm (10.8 inches) / Inner diagonal: 12 cm (4.7 inches)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'twistedsquare-cement-cigarette-ashtray': [
@@ -55,6 +65,12 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`​Width: 11 cm (4.33 In) / Height: 6.4 cm (2.51 In) / Horizontal diagonal: 15 cm (5.91 In)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		
@@ -73,6 +89,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 11x9 cm (4,3x3,5 In) / Height: 21 cm (8,2 In) / Weight: about 2 kg`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'lightwave-concrete-phone-stand': [
@@ -90,6 +109,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 9x8 cm (3,5x3,1 In) / Height: 18 cm (7,1 In) / Weight: about 1 kg`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'helios-concrete-wall-clock': [
@@ -107,6 +129,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Diameter: 17,1 cm or (6,732 In) / Height: 3,5 cm (1,378 In)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'cannonball-cement-planter-pot': [
@@ -124,6 +149,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Weight of the set: about 5 kg.`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'castor-concrete-tealight-stand': [
@@ -141,23 +169,29 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 9 cm / Height: 5 cm / Weight: about 0.5 kg`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'regulus-beton-flower-vase': [
 			{
 				title: `Inspiration:`,
-				text: `...`,
+				text: `At the core of our Regulus collection is the undeniable charm of the square - a shape that epitomizes balance and symmetry. Emerging from the pure essence of this four-sided figure, the Regulus concrete vase elevates its design by integrating an astonishing 180 miniature diamond. These fine details, paired with the vase's multifaceted edges, metamorphose it from just a functional item to an art piece that garners attention and ignites conversations. From its inception, the Regulus vase has ventured beyond confines, gracing living spaces from Europe to North America, bearing witness to its global allure and our unwavering dedication to craftsmanship.`,
 			},
 			{
 				title: `Craftmanship:`,
-				text: `...`,
+				text: `Each Regulus flower vase, weighing in at a robust 5 kilograms, stands as a grand testament to our commitment and the sheer physical effort in the crafting journey. But the weight isn't its only defining attribute. Before this concrete marvel could take shape, the prototype mold required careful and exacting refinement. The process of honing the surface of these 180 diamonds was an endeavor that spanned almost three months. Our hands felt the intensity of this rigorous task, enduring strains and weariness. Yet, every effort, every meticulous detail was justified by the final creation - a symbol of unwavering dedication and precision.`,
 			},
 			{
 				title: `Usage Guidelines:`,
-				text: `...`,
+				text: `Crafted with adaptability in mind, the Regulus flower vase effortlessly complements both indoor and outdoor environments. With its cutting-edge design, Regulus is not just a vessel for flowers but an emblem of artistic pursuit. Whether adorning your personal space or presented as a treasured gift, it pledges to endure, showcasing both beauty and functionality in harmony.`,
 			}, {
 				title:`Dimensions:`,
-				text:`...`
+				text:`Width: 14 cm (5.5 inches) / Height: 24 cm (9.4 inches) / Inner diagonal: 14 cm (5.5 inches)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'regulus-concrete-flower-pot': [
@@ -174,24 +208,30 @@ const Content = () => {
 				text: `Designed with versatility in mind, the Regulus flower pot can seamlessly grace both indoor and outdoor spaces. If you opt for indoor placements, ensure the use of a kermazite substrate, as the pot doesn't feature drainage capabilities. For those who envision its presence outdoors, it's crucial to shield your plant's roots from excess rainwater, ensuring their well-being. With its avant-garde design, Regulus is not just a succulent pot but a testament to artistic endeavor. Whether for your personal space or as a cherished gift, it promises to stand the test of time, offering beauty and functionality in equal measure.`,
 			}, {
 				title:`Dimensions:`,
-				text:`...`
+				text:`External Dimensions: 22 cm x 22 cm or 8.6 x 8.6 In / Height: 20 cm or 7.9 In`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'twisted-sqaure-concrete-vase': [
 			{
 				title: `Inspiration:`,
-				text: `...`,
+				text: `The Twisted Square collection draws its muse from the rhythmic dance of our very planet. As Earth pirouettes counterclockwise on its axis, defying the conventions of timekeepers, so too does our design challenge the conventional. Evoking the earth's rotation through its spiraled design, the Twisted Square pot ensures a captivating view from every angle. Its emphatic edges do more than define its form; they sculpt the very ambiance around it, bending and bouncing light in unforeseen patterns and painting the surroundings with its ever-changing luminous dance.`,
 			},
 			{
 				title: `Craftmanship:`,
-				text: `...`,
+				text: `The vision behind the Twisted Square was as ambitious as it was aesthetic. Our aspiration was not just to mold concrete into form but to give it an edge – a razor-sharp one at that. While this edge accentuates its avant-garde design, making it an undeniable centerpiece, it also poses significant challenges during its birth. Extracting such a meticulously designed piece from its mold demands not just strength but a deep understanding of its delicate intricacies. This labor-intensive process, unfortunately, accelerates the wear and tear on our molds. But for us, every effort, every mold sacrificed, is a testament to our unwavering commitment to artistic perfection.`,
 			},
 			{
 				title: `Usage Guidelines:`,
-				text: `...`,
+				text: `Versatility is the hallmark of the Twisted Square design. While it can nestle succulents with grace, its true prowess lies as a flower vase, effortlessly cradling both wide, lavish bouquets and more minimalistic floral arrangements. Crafted from the finest architectural concrete, every casting becomes a canvas showcasing the idiosyncrasies of this material. The meticulous incorporation of silicon and wax impregnations not only fortifies its surface but imparts a unique texture and finish. This unpredictability, where each piece might reveal a pattern or hue slightly different from its kin, brings a sense of surprise and delight to our crafting journey, ensuring that every Twisted Square flower vase is, in essence, a unique work of art.`,
 			}, {
 				title:`Dimensions:`,
-				text:`...`
+				text:`Width 11 cm (4.33 In) / Height 22 cm (8.66 In) / Horizontal diagonal 15 cm (5.91 In)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'cannonball-xl-concrete-planter-pot': [
@@ -209,6 +249,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Maximum diameter: 22 cm or 8,6 In (3,94 In) / Height: 16 cm (6,3 In) / Inner Pot Depth: 14 cm (5,5 In) / Diameter of the outer upper edge: 18,5 cm (7,3 In) / Diameter of the inner top edge: 16,2 cm (6,4 In)`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'spica-concrete-tealight-holder': [
@@ -226,6 +269,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 10 cm (3,93 In) / Height: 6 cm (2,36 In) / Weight: about 0,5 kg`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'origami-concrete-candle-holder': [
@@ -243,6 +289,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 10 cm (3,94 In) / Height: 6 cm (2,36 In) / Weight: about 0,5 kg;`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		'regulus-concrete-cigarette-ashtray': [
@@ -260,6 +309,9 @@ const Content = () => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 11 cm (4,33 In) / Height: 22 cm (8,66 In) / Horizontal diagonal: 15 cm (5,91 In) / Weight: about 4 kg`
+			}, {
+				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
+				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
 			}
 		],
 		
@@ -294,13 +346,22 @@ const Content = () => {
 				<h4>{item.title}</h4>
 				<p>{item.text}</p>
 			</div>
+			
 		));
+
+		
 	}
+
+	useEffect(() => {
+		document.title = description[props.name][4].metaTitle
+		document.querySelector('meta[name="description"]').setAttribute("content", description[props.name][4].metaDescription);
+		document.querySelector('meta[name="keywords"]').setAttribute("content", description[props.name][4].metaKeywords);
+	  }, []);
 
 	return (
 		<div className='description'>
 			<h1>{title}</h1>
-			<SalesButons name={name} />
+			<SalesButons name={name}/>
 			<ContentGenerator name={name} />
 		</div>
 	)

@@ -1,12 +1,12 @@
 import React from 'react'
 import '../styles/maincontent.scss'
-import { useLocation } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 
 const MainContent = () => {
-	const location = useLocation()
+	
 
 	const products = [
-		'concrete-flower-vase-origami',
+		'origami-concrete-flower-vase',
 		'unicus-cement-flower-vase',
 		'twistedsquare-cement-cigarette-ashtray',
 		'heavyloop-concrete-phone-holder',
@@ -23,13 +23,32 @@ const MainContent = () => {
 		'regulus-concrete-cigarette-ashtray',
 	]
 
-    const ContentGenerator = () => {
+	const ProductsListGenerator = () => {
+
+const navigate = useNavigate();
+
+
+		const Words = props => {
+			return (
+				props.name
+					.replace(/[^a-zA-Z0-9]/g, ' ')
+					.charAt(0)
+					.toUpperCase() + props.name.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')
+			)
+		}
+
+
+
 		return products.map((item, index) => (
-			<div key={index} className='item'>
-				<img src={`../products/cannonball-cement-planter-pot-1.jpg`} alt={item} /><div class='itemtitle'>
-				<h3>{item}</h3>
-				<p>click to see details</p>
-			</div></div>
+			<button key={index} className='item' onClick={() => navigate(`/${item}`)}>
+				<img src={`../products/${item}-1.jpg`} alt={item} />
+				<div class='itemtitle'>
+					<h3>
+						<Words name={item} />
+					</h3>
+					<p>click to see details</p>
+				</div>
+			</button>
 		))
 	}
 
@@ -67,7 +86,7 @@ const MainContent = () => {
 				<h1>MagicConcrete Products:</h1>
 
 				<div className='productslist'>
-                <ContentGenerator/>
+					<ProductsListGenerator />
 				</div>
 			</div>
 		</div>

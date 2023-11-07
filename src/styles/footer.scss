@@ -1,0 +1,34 @@
+@import './colors';
+.footerContent {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0px 10px;
+	width: 100%;
+	height: auto;
+	background-color: $black-color;
+	color: $white-color;
+
+	.seoDesc {
+		display: flex;
+	
+        justify-content: center;
+	align-items: center;
+
+		.oneItem {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			.title {
+				margin: 20px 0px;
+				font-size: 1rem;
+				font-weight: lighter;
+			}
+			.txtp {
+				width: 90%;
+				font-size: 0.7rem;
+			}
+		}
+	}
+}

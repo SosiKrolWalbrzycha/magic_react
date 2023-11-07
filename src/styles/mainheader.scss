@@ -1,6 +1,45 @@
-
+@import './colors';
 .mainSlider {
 	margin-bottom: 20px;
+
+	.darksquare {
+		background-color: $black-color-80transp;
+		width: 400px;
+		text-align: center;
+		padding: 20px 0px;
+		border: none;
+		cursor: pointer;
+		transition: background-color .15s;
+
+		h4 {
+			font-size: 2rem;
+			font-weight: lighter;
+			color: $white-color;
+		}
+	}
+
+	.darksquare:hover {
+		background-color: $black-color;
+	}
+
+	.lightsqaure {
+		background-color: $gray-color-80transp;
+		width: 400px;
+		text-align: center;
+		padding: 20px 0px;
+		border: none;
+		h4 {
+			font-size: 2rem;
+			font-weight: lighter;
+			color: $black-color;
+		}
+		h3 {
+			font-size: 1.6rem;
+			font-weight: lighter;
+			color: $black-color;
+		}
+	}
+
 	.slide {
 		background-position: center;
 		background-size: cover;
@@ -9,84 +48,98 @@
 	}
 
 	.s1 {
+		position: relative;
 		background-image: url('../img/magic_concrete_design_flower_vase_origami_biggr.jpg');
+
+		.d1 {
+			position: absolute;
+			bottom: 5%;
+			right: 0;
+		}
+
+		.l1 {
+			position: absolute;
+			top: 5%;
+			left: 5%;
+		}
 	}
 	.s2 {
+		position: relative;
 		background-image: url('../img/magic_concrete_design_tealight_holder_origami_bigger.jpg');
+
+		.d2 {
+			position: absolute;
+			top: 10%;
+			right: 10%;
+		}
+
+		.l2 {
+			position: absolute;
+			bottom: 5%;
+			left: 7%;
+		}
 	}
 	.s3 {
+		position: relative;
 		background-image: url('../img/magic_concrete_design_planter_pot_bigger.jpg');
+		.d3 {
+			position: absolute;
+			bottom: 7%;
+		left: 10%;
+		}
+
+		.l3 {
+			position: absolute;
+			top: 10%;
+			right: 5%;
+		}
 	}
 	.s4 {
 		background-image: url('../img/magic-concrete-design-unicus-flower-vase.jpg');
-	}
+		.d4 {
+			position: absolute;
+			top: 21%;
+		left: 5%;
+		}
 
-	.darksquare {
-		
-		background-color: rgba(0, 0, 0, 0.5);
-		width: 400px;
-		text-align: center;
-		padding: 20px 0px;
-		border: none;
-		h4 {
-			font-size: 2rem;
-			font-weight: lighter;
-			color: white;
+		.l4 {
+			position: absolute;
+			bottom: 15%;
+			right: 10%;
 		}
 	}
-
-	.lightsqaure {
-		background-color: rgba(255, 255, 255, 0.5);
-		width: 400px;
-		text-align: center;
-		padding: 20px 0px;
-		border: none;
-		h4 {
-			font-size: 2rem;
-			font-weight: lighter;
-			color: rgb(0, 0, 0);
-		}
-		h3 {
-			font-size: 1.6rem;
-			font-weight: lighter;
-			color: rgb(0, 0, 0);
-		}
-	}
-
-
+	
 }
 
-.slick-arrow {display: block !important;}
+.slick-arrow {
+	display: block !important;
+}
 .slick-prev,
 .slick-next,
 .slick-prev:hover,
 .slick-next:hover {
 	visibility: visible;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    height: 100px;
-    width: 100px;
-    z-index: 10;
-    margin: 0px 60px;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	height: 100px;
+	width: 100px;
+	z-index: 10;
+	margin: 0px 60px;
 }
 
 .slick-prev,
 .slick-prev:hover {
-    background-image: url('../img/arrow-left-circle-concrete.svg') !important;
+	background-image: url('../img/arrow-left-circle-concrete.svg') !important;
 }
 
 .slick-next,
 .slick-next:hover {
-    background-image: url('../img/arrow-right-circle-concrete.svg') !important;
+	background-image: url('../img/arrow-right-circle-concrete.svg') !important;
 }
-
-
 
 .slick-prev::before {
 	display: none;
-  }
+}
 .slick-next::before {
 	display: none;
-  }
-
-
+}

@@ -1,0 +1,28 @@
+@import './colors';
+.footerSeo {
+	background-color: $black-color;
+    width: 100%;
+    height: auto;
+    line-height: .8;
+    color: $white-color;
+
+    .dashed{
+        border: none;
+        border-top: 1px dashed $white-color;
+
+    }
+    .links {
+        margin-bottom: 20px;
+    }
+   
+.company {
+    padding: 20px 0px;
+
+}
+	.seolink {
+        display: inline;
+		a{font-size: 0.6rem;text-decoration: none; color: inherit;}
+        margin: 0px 3px;
+        text-decoration: none;
+	}
+}

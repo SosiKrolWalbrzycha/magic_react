@@ -1,14 +1,18 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import MainContent from './mainContent.jsx'
 import ProductContent from './productContent.jsx'
-import { Routes, Route, Navigate } from 'react-router-dom'
+import { Routes, Route, Navigate} from 'react-router-dom'
 
-const Content1 = () => {
-    return ( 
-        <header className='container'>
+
+
+
+const Content1 = (props) => {
+
+	return (
+		<header className='container'>
 			<Routes>
-				<Route element={<ProductContent />} path='/concrete-flower-vase-origami' />
-                <Route element={<ProductContent />} path='/unicus-cement-flower-vase' />
+				<Route element={<ProductContent />} path='/origami-concrete-flower-vase' />
+				<Route element={<ProductContent />} path='/unicus-cement-flower-vase' />
 
 				<Route element={<ProductContent />} path='/twistedsquare-cement-cigarette-ashtray' />
 				<Route element={<ProductContent />} path='/heavyloop-concrete-phone-holder' />
@@ -27,7 +31,7 @@ const Content1 = () => {
 				<Route element={<Navigate to='/' />} path='*' />
 			</Routes>
 		</header>
-     );
+	)
 }
- 
-export default Content1;
+
+export default Content1
