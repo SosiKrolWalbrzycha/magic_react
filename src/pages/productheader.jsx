@@ -35,7 +35,7 @@ const ProductHeader = (props) => {
 			<div className='gallery'>
 				<div className='mainphoto'>
 					<img
-						src={`/products/${location.pathname.slice(1)}-${productState}.jpg`}
+						src={`/products/${location.pathname.slice(1)}-${productState}.png`}
 						alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 					/>
 					<button className='galleryControl subOne' onClick={subOne}>
@@ -51,7 +51,7 @@ const ProductHeader = (props) => {
 						id='1'
 						style={{ border: productState === 1 ? '2px solid black' : 'transparent' }}>
 						<img id='1'
-							src={`/products/${location.pathname.slice(1)}-1.jpg`}
+							src={`/products/${location.pathname.slice(1)}-1.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -60,7 +60,7 @@ const ProductHeader = (props) => {
 						id='2'
 						style={{ border: productState === 2 ? '2px solid black' : 'transparent' }}>
 						<img id='2'
-							src={`/products/${location.pathname.slice(1)}-2.jpg`}
+							src={`/products/${location.pathname.slice(1)}-2.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -69,7 +69,7 @@ const ProductHeader = (props) => {
 						id='3'
 						style={{ border: productState === 3 ? '2px solid black' : 'transparent' }}>
 						<img id='3'
-							src={`/products/${location.pathname.slice(1)}-3.jpg`}
+							src={`/products/${location.pathname.slice(1)}-3.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -78,7 +78,7 @@ const ProductHeader = (props) => {
 						id='4'
 						style={{ border: productState === 4 ? '2px solid black' : 'transparent' }}>
 						<img id='4'
-							src={`/products/${location.pathname.slice(1)}-4.jpg`}
+							src={`/products/${location.pathname.slice(1)}-4.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -90,7 +90,7 @@ const ProductHeader = (props) => {
 						id='5'
 						style={{ border: productState === 5 ? '2px solid black' : 'transparent' }}>
 						<img id='5'
-							src={`/products/${location.pathname.slice(1)}-5.jpg`}
+							src={`/products/${location.pathname.slice(1)}-5.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -99,7 +99,7 @@ const ProductHeader = (props) => {
 						id='6'
 						style={{ border: productState === 6 ? '2px solid black' : 'transparent' }}>
 						<img 	id='6'
-							src={`/products/${location.pathname.slice(1)}-6.jpg`}
+							src={`/products/${location.pathname.slice(1)}-6.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -108,7 +108,7 @@ const ProductHeader = (props) => {
 						id='7'
 						style={{ border: productState === 7 ? '2px solid black' : 'transparent' }}>
 						<img id='7'
-							src={`/products/${location.pathname.slice(1)}-7.jpg`}
+							src={`/products/${location.pathname.slice(1)}-7.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>
@@ -117,7 +117,7 @@ const ProductHeader = (props) => {
 						id='8'
 						style={{ border: productState === 8 ? '2px solid black' : 'transparent' }}>
 						<img id='8'
-							src={`/products/${location.pathname.slice(1)}-8.jpg`}
+							src={`/products/${location.pathname.slice(1)}-8.png`}
 							alt={location.pathname.slice(1).replace(/[^a-zA-Z0-9]/g, ' ')}
 						/>
 					</button>

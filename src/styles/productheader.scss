@@ -5,6 +5,8 @@
 		display: flex;
 		flex-direction: column;
 		margin-top: 20px;
+		width: 96%;
+			left: 2%;
 
 		.description {
 			display: flex;
@@ -12,7 +14,7 @@
 			align-items: start;
 			width: 100%;
 			height: 100%;
-			padding: 0px 10px;
+		
 
 			h1 {
 				font-size: 1.6rem;
@@ -131,6 +133,8 @@
 @media (min-width: 992px) {
 	.container {
 		.productcontainer {
+			width: 90%;
+			left: 5%;
 			.gallery {
 				padding: 0px 10px;
 			}
@@ -144,6 +148,16 @@
 					font-size: 1rem;
 				}
 			}
+		}
+	}
+}
+
+@media (min-width: 1200px) {
+	.container {
+		.productcontainer {
+			width: 80%;
+			left: 10%;
+			
 		}
 	}
 }

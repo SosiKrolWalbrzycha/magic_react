@@ -41,7 +41,7 @@ const navigate = useNavigate();
 
 		return products.map((item, index) => (
 			<button key={index} className='item' onClick={() => navigate(`/${item}`)}>
-				<img src={`../products/${item}-1.jpg`} alt={item} />
+				<img src={`../products/${item}-1.png`} alt={item} />
 				<div class='itemtitle'>
 					<h3>
 						<Words name={item} />
