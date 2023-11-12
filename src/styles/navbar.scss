@@ -90,8 +90,11 @@
 	}
 }
 
-@media (min-width: 576px) {
-	.navigation {
+
+@media (min-width: 768px) {
+
+	.navigation{
+
 		.abovepart {
 			.icons {
 				position: absolute;
@@ -99,12 +102,6 @@
 				left: 30px;
 			}
 		}
-	}
-}
-
-@media (min-width: 768px) {
-
-	.navigation{
 	.belowpart {
 		flex-direction: row;
 	}}

@@ -4,7 +4,8 @@ import '../styles/navbar.scss'
 import logo from '../img/magic_concrete_art_logo.jpg'
 
 
-const Navbar = () => {
+
+const Navbar = props => {
 	const navigate = useNavigate();
 
 	const [menuState, setMenuState] = useState(false)
@@ -23,14 +24,17 @@ const Navbar = () => {
 					<img src={logo} alt='MagicConcrete Logo' onClick={backToMainPage}/>
 				</div>
 				<div className='icons'>
-					<button className='facebook_icon icon social'>
+					<button className='facebook_icon icon social' onClick={() => window.open(`https://www.facebook.com/magicconcreteart`, '_blank')}>
 					<i className="fa-brands fa-facebook-f"></i>
 					</button>
-					<button className='insta_icon icon'>
+					<button className='insta_icon icon' onClick={() => window.open(`https://www.instagram.com/magicconcretedesign`, '_blank')}>
 					<i className="fa-brands fa-instagram"></i>
 					</button>
-					<button className='etsy_icon icon'>
+					<button className='etsy_icon icon' onClick={() => window.open(`https://www.etsy.com/pl/shop/MagicConcreteDesign`, '_blank')}>
 					<i className="fa-brands fa-etsy"></i>
+					</button>
+					<button className='email_icon icon' onClick={props.show}>
+					<i class="fa-regular fa-envelope"></i>
 					</button>
 				</div>
 				<div className='burger'>

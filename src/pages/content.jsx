@@ -24,9 +24,9 @@ const Content = (props) => {
 				text:`Width: 12 cm (7.72 In) / Height: 25 cm (9.84 In) / Weight: about 3 kg`
 			}
 			, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`,
-				metaKeywords:`origami, concrete, flowers vase, art, art design, home decor`
+				metaTitle:`Origami Concrete Flower Vase - A Fusion of Chinese Art and Modern Decor`,
+				metaDescription:`Discover the Origami Concrete Flower Vase, a masterpiece blending Chinese cultural artistry with contemporary design. Ideal for both indoor and outdoor settings, this exquisite vase adds a touch of elegance to any space. Experience the perfect synthesis of tradition and modernity in home decor.`,
+				metaKeywords:`Origami, Concrete Vase, Flower Vase, Home Decor, Concrete Art, Chinese Art, Japanese Art, Modern Vase, Indoor Decor, Outdoor Decor, Artistic Vase, Cultural Decor, Timeless Design, Elegant Vase, Unique Home Accessory`
 			}
 			
 		],
@@ -46,8 +46,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 12.5 cm (4.9 inches) / Height: 27.5 cm (10.8 inches) / Inner diagonal: 12 cm (4.7 inches)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Unicus Cement Flower Vase - Industrial Chic Meets Modern Artistry",
+				metaDescription:"Explore the Unicus Cement Flower Vase, a blend of industrial design and modern art. Inspired by the Rubik's Cube, this unique vase adds a distinctive touch to any space. Perfect for flowers or succulents, it's an art piece that combines functionality with contemporary aesthetics.",
+				metaKeywords:"Unicus Cement Vase, Industrial Flower Vase, Modern Home Decor, Concrete Art, Minimalist Art, Decorative Vessel, Indoor Outdoor Vase, Rubik's Cube Inspired, Cement Craftsmanship, Contemporary Vase, Artistic Home Accessory, Unique Gift Idea, Cement Flower Pot"
 			}
 		],
 		'twistedsquare-cement-cigarette-ashtray': [
@@ -66,12 +67,10 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`​Width: 11 cm (4.33 In) / Height: 6.4 cm (2.51 In) / Horizontal diagonal: 15 cm (5.91 In)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
-			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
-			}
+				metaTitle:"Twistedsquare Cement Ashtray - Unique Artistic Design for Smokers",
+				metaDescription:"Discover the Twistedsquare Cement Cigarette Ashtray, a masterpiece of design and craftsmanship. Inspired by Earth's rotation, its helical structure and sharp edges create a stunning visual effect. Perfect for smokers who appreciate art and functionality in their home decor.",
+				metaKeywords:"Twistedsquare Ashtray, Cement Cigarette Ashtray, Artistic Smokers Accessory, Helical Design Ashtray, Unique Home Decor, Gift for Smokers, Concrete Art Ashtray, Smoking Lovers' Choice, Durable Cigar Ashtray, Modern Smoking Accessory, Architectural Design Ashtray"
+			}, 
 		],
 		
 		'heavyloop-concrete-phone-holder': [
@@ -90,8 +89,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 11x9 cm (4,3x3,5 In) / Height: 21 cm (8,2 In) / Weight: about 2 kg`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Heavyloop Concrete Phone Holder - Stylish & Sturdy Desk Accessory",
+				metaDescription:"Upgrade your workspace with the Heavyloop Concrete Phone Holder. A fusion of elegance and practicality, this gravity-defying design is perfect for modern professionals. Discover a holder that not only supports your phone but elevates your desk's style.",
+				metaKeywords:"Heavyloop Phone Holder, Concrete Art, Office Desk Accessory, Modern Phone Stand, Sturdy Smartphone Holder, Gravity-Defying Design, Unique Desk Decor, Architectural Concrete, Elegant Tech Gadget, Asymmetric Phone Holder, Professional Desk Organizer"
 			}
 		],
 		'lightwave-concrete-phone-stand': [
@@ -110,8 +110,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 9x8 cm (3,5x3,1 In) / Height: 18 cm (7,1 In) / Weight: about 1 kg`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Lightwave Concrete Phone Stand - Sleek & Modern Desk Accessory",
+				metaDescription:"Experience elegance with the Lightwave Concrete Phone Stand, a marvel in modern design. Weighing under 1kg with a sleek 8mm profile, it redefines concrete craftsmanship. Perfect for the office or home, it's not just a stand, but a statement of style.",
+				metaKeywords:`Lightwave Phone Stand, Concrete Art, Modern Phone Holder, Slim Concrete Stand, Lightweight Desk Accessory, Unique Phone Stand, Minimalist Phone Holder, Innovative Design, Office Decor, Elegant Tech Accessory`
 			}
 		],
 		'helios-concrete-wall-clock': [
@@ -130,8 +131,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Diameter: 17,1 cm or (6,732 In) / Height: 3,5 cm (1,378 In)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Helios Concrete Wall Clock - Elegance in Timekeeping",
+				metaDescription:"Discover the Helios Concrete Wall Clock, where simplicity meets elegance. Inspired by the sun's eternal radiance, this clock is a blend of contemporary design and vintage charm. Perfect for intimate spaces, it's not just a timepiece, but a piece of art.",
+				metaKeywords:"Helios Wall Clock, Concrete Art, Minimalist Clock, Sun-Inspired Design, Modern Wall Clock, Unique Concrete Timepiece, Artistic Wall Decor, Vintage Charm Clock, Functional Art, Elegant Home Decor, Gift Idea, Contemporary Clock Design"
 			}
 		],
 		'cannonball-cement-planter-pot': [
@@ -150,8 +152,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Weight of the set: about 5 kg.`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Cannonball Cement Planter Pot - A Blend of History and Elegance",
+				metaDescription:"Experience a piece of history with the Cannonball Cement Planter Pot, inspired by Lower Silesia's rich chronicles. Perfect for indoor or outdoor settings, this pot combines the weightiness of its historical inspiration with modern minimalistic elegance.",
+				metaKeywords:"Cannonball Planter Pot, Concrete Art, Historical Cement Pot, Modern Planter, Succulent Pot, Gift for Her, Home Decor, Office Desk Accessory, Unique Plant Pot, Artistic Pot Design, Elegant Cement Planter, Indoor Outdoor Decor"
 			}
 		],
 		'castor-concrete-tealight-stand': [
@@ -170,8 +173,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 9 cm / Height: 5 cm / Weight: about 0.5 kg`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Castor Concrete Tealight Stand - Geometric Elegance for Your Home",
+				metaDescription:"Enhance your space with the Castor Concrete Tealight Stand, inspired by the beauty of pentagons. Perfect for creating a serene ambiance, its unique design and meticulous craftsmanship make it a striking addition to any interior or garden setting.",
+				metaKeywords:"Castor Tealight Stand, Concrete Candle Holder, Geometric Tealight Decor, Modern Candle Stand, Artistic Tealight Holder, Pentagonal Design, Ethereal Ambiance, Interior Decor, Outdoor Tealight Accessory, Bathroom Decor, Unique Candle Accessory, Home Decor Tealight"
 			}
 		],
 		'regulus-beton-flower-vase': [
@@ -190,8 +194,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 14 cm (5.5 inches) / Height: 24 cm (9.4 inches) / Inner diagonal: 14 cm (5.5 inches)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Regulus Beton Flower Vase - Artistic Elegance in Design",
+				metaDescription:"Discover the Regulus Beton Flower Vase, a masterpiece of balance and symmetry. Featuring 180 miniature diamonds and a unique multifaceted design, this vase transforms any space into an artistic showcase. Ideal for both indoor and outdoor decor.",
+				metaKeywords:"Regulus Beton Vase, Concrete Art Vase, Flower Vase, Home Decor, Artistic Flower Vase, Modern Beton Vase, Multifaceted Vase Design, Luxury Home Accessory, Indoor Outdoor Vase, Decorative Beton Piece, Unique Vase for Flowers, Craftsmanship in Concrete"
 			}
 		],
 		'regulus-concrete-flower-pot': [
@@ -210,8 +215,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`External Dimensions: 22 cm x 22 cm or 8.6 x 8.6 In / Height: 20 cm or 7.9 In`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Regulus Concrete Flower Pot - Artistic and Functional Decor",
+				metaDescription:"Embrace the elegance of the Regulus Concrete Flower Pot, a blend of artistic flair and practicality. With 180 diamond facets and a sophisticated design, this pot is more than just a planter—it's a statement piece for any indoor or outdoor space.",
+				metaKeywords:"Regulus Concrete Pot, Artistic Flower Pot, Handmade Concrete Pot, Modern Decor Pot, Geometric Plant Pot, Home Decor, Outdoor Plant Container, Designer Flower Pot, Concrete Art, Succulent Pot, Stylish Gardening Accessory, Interior Design Pot"
 			}
 		],
 		'twisted-sqaure-concrete-vase': [
@@ -230,8 +236,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width 11 cm (4.33 In) / Height 22 cm (8.66 In) / Horizontal diagonal 15 cm (5.91 In)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Twisted Square Concrete Vase - Artistic Elegance in Decor",
+				metaDescription:"Explore the Twisted Square Concrete Vase, a fusion of artistic vision and craftsmanship. Inspired by Earth's rotation, its unique spiraled design and razor-sharp edges make it a standout centerpiece for any floral arrangement. Experience the blend of art and function in every piece.",
+				metaKeywords:"Twisted Square Vase, Concrete Art Vase, Unique Flower Vase, Decorative Concrete Vase, Handmade Vase, Modern Home Decor, Avant-Garde Vase Design, Artistic Plant Holder, Interior Design Accessory, Geometric Flower Vase, Contemporary Vase, Unique Textured Vase"
 			}
 		],
 		'cannonball-xl-concrete-planter-pot': [
@@ -250,8 +257,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Maximum diameter: 22 cm or 8,6 In (3,94 In) / Height: 16 cm (6,3 In) / Inner Pot Depth: 14 cm (5,5 In) / Diameter of the outer upper edge: 18,5 cm (7,3 In) / Diameter of the inner top edge: 16,2 cm (6,4 In)`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"CannonBall Concrete Planter Pot - A Blend of History and Modern Design",
+				metaDescription:"Experience the CannonBall Concrete Planter Pot, inspired by the historical cannonballs of Lower Silesia. This unique planter combines antiquity with contemporary style, making it a perfect addition to any indoor or outdoor space. A true masterpiece of craftsmanship and design.",
+				metaKeywords:"CannonBall Planter Pot, Concrete Art, Historical Inspired Pot, Handmade Concrete Planter, Modern Garden Decor, Unique Plant Pot, Artistic Planter Design, Indoor Outdoor Concrete Pot, Crafted Planter Pot, Decorative Pot for Plants, Home and Office Decor"
 			}
 		],
 		'spica-concrete-tealight-holder': [
@@ -269,9 +277,9 @@ const Content = (props) => {
 			}, {
 				title:`Dimensions:`,
 				text:`Width: 10 cm (3,93 In) / Height: 6 cm (2,36 In) / Weight: about 0,5 kg`
-			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+			}, {metaTitle:"Spica Concrete Tealight Holder - Cosmic Elegance for Your Home",
+			metaDescription:"Immerse in the celestial charm with the Spica Concrete Tealight Holder, inspired by the starry night sky. Perfect for adding a touch of sophistication to any indoor space, its unique design and craftsmanship bring the magic of the cosmos into your home.",
+			metaKeywords:"Spica Tealight Holder, Concrete Candle Holder, Celestial Decor, Concrete Art, Modern Tealight Accessory, Indoor Candle Holder, Star-Inspired Design, Elegant Home Decor, Unique Light and Shadow Play, Quality Concrete Decor, Artistic Candle Accessory"
 			}
 		],
 		'origami-concrete-candle-holder': [
@@ -290,8 +298,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 10 cm (3,94 In) / Height: 6 cm (2,36 In) / Weight: about 0,5 kg;`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Origami Concrete Candle Holder - Artistic Elegance and Versatility",
+				metaDescription:"Discover the Origami Concrete Candle Holder, a true fusion of Eastern art and modern design. Crafted with care, each unique piece reflects the beauty and intricacy of traditional paper folding techniques, perfect for both indoor and outdoor settings.",
+				metaKeywords:"Origami Candle Holder, Concrete Art, Modern Candle Holder, Decorative Tealight Holder, Asian Inspired Decor, Unique Concrete Design, Indoor Outdoor Candle Accessory, Contemporary Home Decor, Chinese Art, Japanese Art, Asian Craftsmanship"
 			}
 		],
 		'regulus-concrete-cigarette-ashtray': [
@@ -310,8 +319,9 @@ const Content = (props) => {
 				title:`Dimensions:`,
 				text:`Width: 11 cm (4,33 In) / Height: 22 cm (8,66 In) / Horizontal diagonal: 15 cm (5,91 In) / Weight: about 4 kg`
 			}, {
-				metaTitle:`Origami concrete flower vase - MagicConcrete Design`,
-				metaDescription:`Zobacz niesamowity Origami concrete flower vase, który otwiera oczy niedowiarkom i powoduje pocenie sie rąk u krytyków sztuki. Jedyny i niepowtarzalny element.`
+				metaTitle:"Regulus Concrete Cigarette Ashtray - A Blend of Artistry and Functionality",
+				metaDescription:"Explore the Regulus Concrete Cigarette Ashtray, a masterful blend of artistic design and practical use. Featuring 68 diamond facets, this ashtray is not just a smoker's accessory but a statement of refined taste and design excellence for any space.",
+				metaKeywords:"Regulus Ashtray, Concrete Cigarette Ashtray, Artistic Ashtray, Modern Smoking Accessory, Office Desk Decor, Coffee Table Piece, Unique Ashtray Design, Gift for Smokers, Premium Concrete Art, Decorative Ashtray, Functional Art for Home, Gift for Him"
 			}
 		],
 		

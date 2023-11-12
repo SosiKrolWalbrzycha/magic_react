@@ -49,6 +49,9 @@ const FooterSeo = () => {
 		['Candle chic holder', 'https://www.etsy.com/pl/listing/967909779/spica-0126-candle-holder-gray-concrete'],
 		['Candle holder', 'https://www.etsy.com/pl/listing/948985536/castor-0127-candle-holder-light-gray'],
 		['Vase for flowers', 'https://www.etsy.com/pl/listing/1165959592/stunning-vase-for-flowers-elevate-your'],
+		['MagicConcrete Etsy Profile', 'https://www.etsy.com/pl/shop/MagicConcreteDesign'],
+		['MagicConcrete Facebook Profile', 'https://www.facebook.com/magicconcreteart'],
+		['MagicConcrete Instagram Profile', 'https://www.instagram.com/magicconcretedesign/'],
 		
 
 	])

@@ -17,15 +17,18 @@ const App = () => {
 	const hidePopup = () => {
 		setVisibilityState(false)
 	}
+	const showPopup = () => {
+		setVisibilityState(true)
+	}
 
 
 
 	return (
 		<div>
-			<PopupContext.Provider value={{visibilityState, setVisibilityState}}>
+			<PopupContext.Provider value={{visibilityState, setVisibilityState}} popupFunction={showPopup}>
 				<BrowserRouter>
 					{visibilityState && <Popup hide={hidePopup} />}
-					<Navbar />
+					<Navbar show={showPopup} />
 					<Header />
 					<Content1 />
 					<Footer />
