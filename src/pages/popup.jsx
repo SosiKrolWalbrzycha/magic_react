@@ -56,14 +56,19 @@ const Popup = props => {
 	}
 
 	return (
-		<div className='popup-bg'>
+		<form className='popup-bg' action="https://formsubmit.io/send/4cf3dc36-5c26-4786-98b7-994c182f9bbe" method="POST">
+		
+			
 			<button className='close_icon' onClick={props.hide}>
 				<i className='fa-solid fa-xmark'></i>
 			</button>
 
 			<div className={popupState === 1 ? 'form active' : 'form'}>
+			<input name="_redirect" type="hidden" value="http://localhost:3000/regulus-concrete-flower-pot"/>
 				<h2>Select the product you want to inquire about:</h2>
-				<select name='product' id='1' value={productState} onChange={handleProductSelect}>
+
+				<select name='product' id='product' type="product" value={productState} onChange={handleProductSelect}>
+				<option value='no-product'>No product - general question</option>
 					<option value='origami-concrete-flower-vase'>Origami - concrete flower vase</option>
 					<option value='unicus-cement-flower-vase'>Unicus - cement flower vase</option>
 					<option value='twistedsquare-cement-cigarette-ashtray'>Twistedsquare - cement cigarette ashtray</option>
@@ -83,7 +88,7 @@ const Popup = props => {
 			</div>
 			<div className={popupState === 2 ? 'form active' : 'form'}>
 				<h2>Please select the color you like the most:</h2>
-				<select name='product' id='1' value={colorState} onChange={handleColorSelect}>
+				<select name='color' id='color' type="color" value={colorState} onChange={handleColorSelect}>
 					<option value='Black color'>Black color (graphite)</option>
 					<option value='White color'>White color</option>
 					<option value='Gray color'>Gray color</option>
@@ -106,31 +111,31 @@ const Popup = props => {
 						className={!isEmailValid && 'alert'}
 					/>
 					<label htmlFor='email'>Enter your message to me:</label>
-					<textarea name='message' className='messageField' value={msgState} onChange={handleMsgField} />
+					<textarea name='message' className='messageField' type="message" value={msgState} onChange={handleMsgField} />
 				</div>
 			</div>
 
 			<div className='buttons'>
 				<div className={popupState === 1 ? 'go_mid btn1 active' : 'go_mid btn1'}>
-					<button className='go_next btn1' onClick={adPointToState}>
+					<button type="button" className='go_next btn1' onClick={adPointToState}>
 						{'Next step - choose a color >>'}
 					</button>
 				</div>
 
 				<div className={popupState === 2 ? 'go_mid btn2 active' : 'go_mid btn2'}>
-					<button className='go_next' onClick={subtractPointToState}>
+					<button type="button" className='go_next' onClick={subtractPointToState}>
 						{'<< Previous step - choose a product'}
 					</button>
-					<button className='go_next' onClick={adPointToState}>
+					<button type="button" className='go_next' onClick={adPointToState}>
 						{'Next step - describe the need >>'}
 					</button>
 				</div>
 
 				<div className={popupState === 3 ? 'go_mid btn3 active' : 'go_mid btn3'}>
-					<button className='go_next' onClick={subtractPointToState}>
+					<button type="button" className='go_next' onClick={subtractPointToState}>
 						Previous step - choose a color
 					</button>
-					<button disabled={!isEmailValid} className='go_next' onClick={adPointToState}>
+					<button disabled={!isEmailValid} className='go_next' onClick={adPointToState} value="Submit" type="submit">
 						Send an inquiry to MagicConcrete
 					</button>
 				</div>
@@ -144,7 +149,7 @@ const Popup = props => {
 				</div>
 				<div className='steps_line'>Steps no.</div>
 			</div>
-		</div>
+		</form>
 	)
 }
 

@@ -4,9 +4,9 @@ import '../styles/footer.scss'
 
 const ContentForFooter = {
 	'': [
-		['header1', 'content1'],
-		['header2', 'content2'],
-		['header3', 'content3'],
+		["The Essence of Concrete Art", "Discover the unparalleled beauty of concrete art at MagicConcrete, where imagination meets the robustness of concrete. Each piece in our collection is a testament to the innovative spirit of concrete design. From the vibrant streets of Wroclaw, Poland, our artists bring to life unique geometric patterns, embedding each creation with a soulful touch of magic. Our workshop is a crucible where art and design converge, resulting in decorative pieces that transcend the ordinary. The meticulous attention to detail in our concrete art is evident in every curve and contour, ensuring that each item stands as a hallmark of excellence."],
+		['Personalized Concrete Creations', "At MagicConcrete, we believe in the magic of personalization. Our dedicated team is committed to transforming your visions into bespoke concrete masterpieces. Whether it's reimagining one of our classic designs or crafting a completely new piece, we embrace the challenge with enthusiasm and expertise. Our approach to concrete design is flexible and customer-centric, ensuring that every piece resonates with your personal style and décor preferences. By choosing MagicConcrete, you're not just acquiring a product; you're becoming a part of a creative journey where your ideas are sculpted into tangible, enduring art."],
+		['Integrating Concrete into Modern Decor', "Incorporating our concrete art into your space means bringing a piece of modern design into your daily life. Our decorative concrete items are not just aesthetically pleasing but are also imbued with functionality and durability. They seamlessly blend into various interior themes, from minimalist to eclectic, adding a touch of elegance and sophistication. The versatility of concrete, combined with our innovative design techniques, results in decor items that are both contemporary and timeless. Explore our Etsy collection to find that perfect piece which will transform your space into a haven of concrete beauty, where art and practicality live in perfect harmony."],
 	],
 	'origami-concrete-flower-vase': [
 		[

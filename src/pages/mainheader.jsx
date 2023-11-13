@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import { Navigate, useNavigate } from 'react-router-dom'
 import Slider from 'react-slick'
 import '../styles/mainheader.scss'
-import LinkMaker1 from './header.jsx'
-import { NavigationContext } from './header.jsx'
 
 
 const MainHeader = () => {

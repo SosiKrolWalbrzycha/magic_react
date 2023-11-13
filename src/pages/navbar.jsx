@@ -34,7 +34,7 @@ const Navbar = props => {
 					<i className="fa-brands fa-etsy"></i>
 					</button>
 					<button className='email_icon icon' onClick={props.show}>
-					<i class="fa-regular fa-envelope"></i>
+					<i className="fa-regular fa-envelope"></i>
 					</button>
 				</div>
 				<div className='burger'>

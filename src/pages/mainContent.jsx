@@ -42,7 +42,7 @@ const navigate = useNavigate();
 		return products.map((item, index) => (
 			<button key={index} className='item' onClick={() => navigate(`/${item}`)}>
 				<img src={`../products/${item}-1.png`} alt={item} />
-				<div class='itemtitle'>
+				<div className='itemtitle'>
 					<h3>
 						<Words name={item} />
 					</h3>
@@ -73,11 +73,11 @@ const navigate = useNavigate();
 					<div className='evaluation'>4,94</div>
 					<div className='description'>Our realibility on Etsy:</div>
 					<div className='stars'>
-						<i class='fa-sharp fa-solid fa-star'></i>
-						<i class='fa-sharp fa-solid fa-star'></i>
-						<i class='fa-sharp fa-solid fa-star'></i>
-						<i class='fa-sharp fa-solid fa-star'></i>
-						<i class='fa-sharp fa-solid fa-star'></i>
+						<i className='fa-sharp fa-solid fa-star'></i>
+						<i className='fa-sharp fa-solid fa-star'></i>
+						<i className='fa-sharp fa-solid fa-star'></i>
+						<i className='fa-sharp fa-solid fa-star'></i>
+						<i className='fa-sharp fa-solid fa-star'></i>
 					</div>
 				</div>
 			</div>
