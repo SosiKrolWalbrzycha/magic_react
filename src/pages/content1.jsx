@@ -27,6 +27,7 @@ const Content1 = (props) => {
 				<Route element={<ProductContent />} path='/spica-concrete-tealight-holder' />
 				<Route element={<ProductContent />} path='/origami-concrete-candle-holder' />
 				<Route element={<ProductContent />} path='/regulus-concrete-cigarette-ashtray' />
+				<Route element={<ProductContent />} path='/thx' />
 				<Route element={<MainContent />} path='/' />
 				<Route element={<Navigate to='/' />} path='*' />
 			</Routes>

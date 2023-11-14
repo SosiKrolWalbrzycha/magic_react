@@ -9,7 +9,7 @@ const MainHeader = () => {
 
 
 
-const Dupa = (e) => {
+const handleSliderButtton = (e) => {
 if (Number(e.target.id) === 1) {navigate('/origami-concrete-flower-vase')}
 else if (Number(e.target.id) === 2) {navigate('/origami-concrete-candle-holder')}
 else if (Number(e.target.id) === 3) {navigate('/regulus-concrete-flower-pot')}
@@ -18,7 +18,7 @@ else if (Number(e.target.id) === 4) {navigate('/unicus-cement-flower-vase')}
 
 
 
-	return ( <SimpleSlider arg={Dupa}/> );
+	return ( <SimpleSlider arg={handleSliderButtton}/> );
 }
  
 

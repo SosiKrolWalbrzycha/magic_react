@@ -64,7 +64,7 @@ const Popup = props => {
 			</button>
 
 			<div className={popupState === 1 ? 'form active' : 'form'}>
-			<input name="_redirect" type="hidden" value="http://localhost:3000/regulus-concrete-flower-pot"/>
+			<input name="_redirect" type="hidden" value='https://mconcrete.art/thx'/>
 				<h2>Select the product you want to inquire about:</h2>
 
 				<select name='product' id='product' type="product" value={productState} onChange={handleProductSelect}>

@@ -3,6 +3,7 @@ import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
 import { createContext } from 'react'
 import MainHeader from './mainheader.jsx'
 import ProductHeader from './productheader.jsx'
+import ThxHeader from './thx.jsx'
 
 export const NavigationContext = createContext()
 
@@ -35,6 +36,7 @@ const Header = props => {
 					<Route element={<ProductHeader />} path='/spica-concrete-tealight-holder' />
 					<Route element={<ProductHeader />} path='/origami-concrete-candle-holder' />
 					<Route element={<ProductHeader />} path='/regulus-concrete-cigarette-ashtray' />
+					<Route element={<ThxHeader />} path='/thx' />
 				</Routes>
 			
 		</header>
