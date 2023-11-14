@@ -4,15 +4,15 @@
 
 	.darksquare {
 		background-color: $black-color-80transp;
-		width: 400px;
+		width: 300px;
 		text-align: center;
-		padding: 20px 0px;
+		padding: 10px 0px;
 		border: none;
 		cursor: pointer;
-		transition: background-color .15s;
+		transition: background-color 0.15s;
 
 		h4 {
-			font-size: 2rem;
+			font-size: 1.2rem;
 			font-weight: lighter;
 			color: $white-color;
 		}
@@ -24,17 +24,17 @@
 
 	.lightsqaure {
 		background-color: $gray-color-80transp;
-		width: 400px;
+		width: 300px;
 		text-align: center;
-		padding: 20px 0px;
+		padding: 10px 0px;
 		border: none;
 		h4 {
-			font-size: 2rem;
+			font-size: 1.5rem;
 			font-weight: lighter;
 			color: $black-color;
 		}
 		h3 {
-			font-size: 1.6rem;
+			font-size: 1.3rem;
 			font-weight: lighter;
 			color: $black-color;
 		}
@@ -44,7 +44,7 @@
 		background-position: center;
 		background-size: cover;
 		background-repeat: no-repeat;
-		height: 60vh;
+		height: 50vh;
 	}
 
 	.s1 {
@@ -53,14 +53,14 @@
 
 		.d1 {
 			position: absolute;
-			bottom: 5%;
+			bottom: 0;
 			right: 0;
 		}
 
 		.l1 {
 			position: absolute;
-			top: 5%;
-			left: 5%;
+			top: 0;
+			left: 0;
 		}
 	}
 	.s2 {
@@ -69,14 +69,14 @@
 
 		.d2 {
 			position: absolute;
-			top: 10%;
-			right: 10%;
+			top: 5%;
+			right: 0;
 		}
 
 		.l2 {
 			position: absolute;
-			bottom: 5%;
-			left: 7%;
+			bottom: 0;
+			left: 0;
 		}
 	}
 	.s3 {
@@ -84,31 +84,30 @@
 		background-image: url('../img/magic_concrete_design_planter_pot_bigger.jpg');
 		.d3 {
 			position: absolute;
-			bottom: 7%;
-		left: 10%;
+			bottom: 3%;
+			left: 0;
 		}
 
 		.l3 {
 			position: absolute;
-			top: 10%;
-			right: 5%;
+			top: 0;
+			right: 0;
 		}
 	}
 	.s4 {
 		background-image: url('../img/magic-concrete-design-unicus-flower-vase.jpg');
 		.d4 {
 			position: absolute;
-			top: 21%;
-		left: 5%;
+			top: 2%;
+			left: 0;
 		}
 
 		.l4 {
 			position: absolute;
-			bottom: 15%;
-			right: 10%;
+			bottom: 0;
+			right: 0;
 		}
 	}
-	
 }
 
 .slick-arrow {
@@ -124,7 +123,7 @@
 	height: 100px;
 	width: 100px;
 	z-index: 10;
-	margin: 0px 60px;
+	margin: 0px 20px;
 }
 
 .slick-prev,
@@ -142,4 +141,95 @@
 }
 .slick-next::before {
 	display: none;
+}
+
+@media (min-width: 992px) {
+	.mainSlider {
+		margin-bottom: 20px;
+
+		.darksquare {
+			background-color: $black-color-80transp;
+			width: 400px;
+			text-align: center;
+			padding: 20px 0px;
+			border: none;
+			cursor: pointer;
+			transition: background-color 0.15s;
+
+			h4 {
+				font-size: 2rem;
+				font-weight: lighter;
+				color: $white-color;
+			}
+		}
+
+		.lightsqaure {
+			width: 400px;
+
+			padding: 20px 0px;
+
+			h4 {
+				font-size: 2rem;
+			}
+			h3 {
+				font-size: 1.6rem;
+			}
+		}
+
+		.slide {
+			height: 70vh;
+		}
+
+		.s1 {
+			.d1 {
+				bottom: 5%;
+				right: 0;
+			}
+
+			.l1 {
+				top: 5%;
+				left: 5%;
+			}
+		}
+		.s2 {
+			.d2 {
+				top: 10%;
+				right: 10%;
+			}
+
+			.l2 {
+				bottom: 5%;
+				left: 7%;
+			}
+		}
+		.s3 {
+			.d3 {
+				bottom: 7%;
+				left: 10%;
+			}
+
+			.l3 {
+				top: 10%;
+				right: 5%;
+			}
+		}
+		.s4 {
+			.d4 {
+				top: 21%;
+				left: 0;
+			}
+
+			.l4 {
+				bottom: 15%;
+				right: 10%;
+			}
+		}
+	}
+
+	.slick-prev,
+	.slick-next,
+	.slick-prev:hover,
+	.slick-next:hover {
+		margin: 0px 60px;
+	}
 }

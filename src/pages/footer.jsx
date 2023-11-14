@@ -168,10 +168,10 @@ const Footer = () => {
 	))
 
 	return (
-		<div className='footerContent'>
+		<footer className='footerContent'>
 			{FooterContentGenerator}
 			<h2 className='title titleProducts'>Our products on Etsy:</h2>{' '}
-		</div>
+		</footer>
 	)
 }
 

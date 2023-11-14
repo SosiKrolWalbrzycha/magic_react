@@ -1,5 +1,5 @@
 import React from 'react'
-import { Routes, Route, Navigate, useNavigate } from 'react-router-dom'
+import { Routes, Route, Navigate } from 'react-router-dom'
 import { createContext } from 'react'
 import MainHeader from './mainheader.jsx'
 import ProductHeader from './productheader.jsx'
@@ -11,7 +11,7 @@ export const NavigationContext = createContext()
 
 
 const Header = props => {
-	const navigate = useNavigate()
+	
 
 
 

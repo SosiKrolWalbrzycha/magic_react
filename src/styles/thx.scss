@@ -1,10 +1,24 @@
 .thxh1{
-    margin-top: 250px;
+    margin-top: 100px;
     font-size: 32px;
     margin-bottom: 30px;
+    padding: 0px 10px;
 }
 
 .thxh2{
-    margin-bottom: 200px;
+    margin-bottom: 100px;
 }
 
+
+@media (min-width: 992px) {
+    .thxh1{
+        margin-top: 200px;
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    
+    .thxh2{
+        margin-bottom: 200px;
+    }
+	
+}

@@ -67,13 +67,13 @@ const FooterSeo = () => {
 	))
 
 	return (
-		<div className='footerSeo'>
+		<footer className='footerSeo'>
 			<div className='links'>{Linki}</div>
 			<hr className='dashed' />
 			<div className='company'>
 				<p>{'© MagicConcrete Design ' + year}</p>
 			</div>
-		</div>
+		</footer>
 	)
 }
 

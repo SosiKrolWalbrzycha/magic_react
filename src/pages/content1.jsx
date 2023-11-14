@@ -1,4 +1,4 @@
-import React, {useEffect} from 'react'
+
 import MainContent from './mainContent.jsx'
 import ProductContent from './productContent.jsx'
 import { Routes, Route, Navigate} from 'react-router-dom'
